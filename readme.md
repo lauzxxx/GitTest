@@ -47,3 +47,10 @@
 5. git push -u origin master
 git push 把本地仓库推送到远程仓库
 -u origin master 设置默认提交master分支到origin
+
+
+## 下载项目到本地
+1. 克隆项目：git clone 项目远程仓库地址 整个版本库克隆下来
+2. git clone 适用于本地没有该项目 直接从远程下载到本地
+3. 如果本地有该项目，应该直接更新到本地 git pull
+4. 一定要先把工作区的修改提交到本地仓库再更新远程到本地
