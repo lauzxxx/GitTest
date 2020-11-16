@@ -37,3 +37,13 @@
 1. 命令 git status 查看当前目录下的操作状态
 2. git log 查看日志
 3. git reflog 查看简版日志 
+
+
+## 将本地仓库提交到远程仓库
+1. 在gitHbu创建一个远程仓库 GitTest
+2. 在本地工作区先提交到本地仓库
+3. git remote add origin https://github.com/lauzxxx/GitTest.git 本地仓库和远程仓库关联
+4. git remote -v 查看本地仓库所关联的远程仓库地址
+5. git push -u origin master
+git push 把本地仓库推送到远程仓库
+-u origin master 设置默认提交master分支到origin
