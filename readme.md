@@ -28,7 +28,12 @@
 3. 从暂存区提交到本地仓库 git commit -m '提交注释'
 
 
+## 版本回退
+1. 命令：git reset --hard HEAD^ 回退到上一个版本（一个^代表上一个版本）
+2. 命令：git rest --hard 版本号 回退到指定版本
+
+
 ## 辅助命令
 1. 命令 git status 查看当前目录下的操作状态
 2. git log 查看日志
-3. git reflog 查看简版日志  111111
+3. git reflog 查看简版日志 
